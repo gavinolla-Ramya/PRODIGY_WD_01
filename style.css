@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-size: cover;
+    height: 200vh;
+    color: white;
+    text-align: right;
+}
+
+nav {
+    font-size: 1.2em;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: right;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: hsl(0, 3%, 24%);
+    padding: 5px 10px;
+}
+
+section {
+    padding: 60px 20px;
+    min-height: 100vh;
+}
+
+#Home {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    background-image: url("coffee-171653_1280.jpg");
+}
+
+#Home .content {
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-left: 70%;
+    font-size: 1em;
+    width:300vh ;
+}
+#Menu h1{
+    text-align: center;
+}
+#Menu .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 9%;
+    
+   
+}
+#one,#two,#three,#four{
+    background-color: rgba(60, 5, 5, 0.772);
+    border-radius: 40%;
+    height: 40vh;
+    gap: 20px;
+    
+
+}
+#one{
+    background-image: url("Screenshot\ 2024-05-20\ 212048.png");
+}
+#two{
+    background-image: url("Screenshot\ 2024-05-20\ 212250.png");
+}
+#three{
+    background-image: url("Screenshot\ 2024-05-20\ 211407.png");
+    width: 10vh;
+    height: 40vh;
+}
+#four{
+    background-image: url("Screenshot\ 2024-05-20\ 212419.png");
+}
+
+#Menu div {
+    flex: 1;
+    text-align: center;
+    height: 60vh;
+   
+}
+
+#About {
+    font-size: 2em;
+    padding: 0 30%;
+    text-align: center;
+    padding: 0%;
+   
+   height: 100vh;
+}
+#Contact{
+    text-align: left;
+}
+#Contact p{
+    display: flex;
+    gap: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
